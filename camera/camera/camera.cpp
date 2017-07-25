@@ -7,7 +7,7 @@ void DrawCircle(const Mat src, Mat dst, Point center, int radius, int thickness)
 
 int main()
 {
-	VideoCapture capture(1);
+	VideoCapture capture(0);
 	int frameRad = 12;
 	//capture.set(CAP_PROP_FRAME_WIDTH, 1280);
 	//capture.set(CAP_PROP_FRAME_HEIGHT, 720);
